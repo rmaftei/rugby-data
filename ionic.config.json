@@ -1,0 +1,7 @@
+{
+  "name": "rugby-data",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
