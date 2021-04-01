@@ -1,0 +1,9 @@
+<br />
+<ion-card>
+    <ion-card-title>
+        <div class = "ion-text-center">Etapa {{title}}</div>
+    </ion-card-title>
+    <app-match *ngFor="let game of games" [homeTeamName]="game.homeTeamName" [homeTeamScore]="game.homeTeamScore"
+        [awayTeamName]="game.awayTeamName" [awayTeamScore]="game.awayTeamScore" [hour]="game.hour" [date]="game.date">
+    </app-match>
+</ion-card>
